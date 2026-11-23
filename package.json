@@ -1,0 +1,16 @@
+{
+  "name": "bot-whatsapp-ia",
+  "version": "1.0.0",
+  "description": "Bot de atendimento por WhatsApp com IA (WhatsApp Cloud API + Claude). Zero dependências.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --watch --env-file=.env src/index.js",
+    "simular": "node --env-file=.env scripts/simular.js",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
